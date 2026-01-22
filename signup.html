@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Environment</title>
+    <link rel="stylesheet" href="stylessignup.css">
+</head>
+<body>
+    <div class="background-container">
+        <img src="back4.jpg" alt="background" class="background-image">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="pollution.html">Environment Pollution</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <h1>Create New Account</h1>
+
+        <form id="signup-form">
+            <lable for="name">Name:</lable>
+            <input type="text" id="name" name="name" required><br>
+
+            <lable for="age">Age:</lable>
+            <input type="number" id="age" name="age" required><br>
+
+            <lable for="gender">Gender:</lable>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <lable for="address">Address:</lable>
+            <input type="text" id="address" name="address" required><br>
+
+            <lable for="country">Country:</lable>
+            <input type="text" id="country" name="country" required><br>
+
+            <lable for="phone">Phone Number:</lable>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p>Already Have An Account? <a href="home.html">Log In</a></p>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

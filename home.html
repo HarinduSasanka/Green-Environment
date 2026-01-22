@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Green Environment</title>
+    <link rel="stylesheet" href="styleshome.css">
+</head>
+<body>
+    <div class="background-container">
+        <img src="back1.jpg" alt="background" class="background-image">
+    </div>
+   <nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="events.html">Event</a></li>
+        <li><a href="pollution.html">Environment Pollution</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+   </nav>
+   <div class="main-content">
+    <div class="header">
+        <h1>WELCOME TO GREEN ENVIRONMENT</h1>
+        
+    </div><br>
+    <p><b>Explore eco-friendly practices and join our community dedicated to forestion positive change!</b></p><br>
+
+    <div class="image-row">
+        <div class="image-container">
+            <img src="img6.jpg" alt="image1">
+            <div class="image-text"><b>Did You See this?</b></div>
+        </div>
+        <div class="image-container">
+            <img src="img7.jpg" alt="image2">
+            <div class="image-text"><b>Why Aren't We Stop This?</b></div>
+        </div>
+        <div class="image-container">
+            <img src="img8.jpg" alt="image3">
+            <div class="image-text"><b>Isn't This Your Responsibility?</b></div>
+        </div>
+
+    </div>
+    <div class="form-container" id="login-container">
+
+    <h2>Join With Us</h2>
+    <form id="login-form">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="submit">Log In</button>
+
+    </form>
+    <p>Don't Have An Account? <a href="signup.html">Create New!</a></p>
+    </div>
+
+    
+
+    <div class="form-container"   id="feedback-container">
+        <h2>Leave A Comment Or Feedback</h2>
+        <form id="feedback-form">
+            <label for="feedback">Comment/Feedback:</label>
+            <input type="text" id="feedback" v-model="feedback" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div v-if="submitted">
+            <p>Thank You For Your Feedback!</p>
+        </div>
+    </div>
+   </div>
+
+   <script src="login.js"></script>
+   <script src="feedback.js"></script>
+   
+    
+
+
+</body>
+</html>
